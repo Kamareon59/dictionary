@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <div className="container">
         <header className="mt-5">
-          <h1>Plain & Simple</h1>
-          <h2>A Humble Dictionary</h2>
+          <h1>Plain & simple</h1>
+          <h2 id="subtitle">A humble dictionary</h2>
         </header>
         <main>
           <Dictionary />

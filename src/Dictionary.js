@@ -28,11 +28,11 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input
           type="search"
-          autoFocus={true}
           placeholder="Enter a word"
           onChange={logKeyword}
+          className="search-bar"
         />
-        <input type="button" />
+        <input type="button" value="🔎" className="search-btn" />
       </form>
       <Results results={results} />
     </div>

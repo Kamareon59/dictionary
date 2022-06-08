@@ -1,4 +1,23 @@
 .Dictionary {
-  text-align: center;
   padding: 10px;
+}
+
+.Dictionary form {
+  text-align: center;
+}
+
+.Dictionary .search-bar {
+  text-indent: 10px;
+  padding: 5px;
+  width: 50%;
+  border-color: #b990f4;
+  border-radius: 10px;
+}
+
+.Dictionary .search-btn {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #c5a2f6;
+  border-color: #b990f4;
+  border-radius: 10px;
 }
