@@ -11,7 +11,8 @@ export default function Meanings(props) {
         {props.meanings.definitions.map(function (definition, index) {
           return (
             <li key={index} className="mb-4">
-              Definition: {definition.definition}
+              <span className="accent-purple">Definition:</span>{" "}
+              {definition.definition}
               <br />
               <Example example={definition.example} />
               <br />

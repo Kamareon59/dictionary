@@ -1,3 +1,6 @@
 .Results h2 {
-  color: #c5a2f6;
+  font-family: "Caveat", cursive;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #b990f4;
 }

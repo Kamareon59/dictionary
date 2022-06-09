@@ -3,17 +3,48 @@
   font-weight: 300;
 }
 
-.App h1 {
+.App #title {
   font-family: "Oswald", sans-serif;
   font-weight: 200;
   letter-spacing: 1px;
+  color: #2c095d;
+  margin-top: 16px;
 }
 
 .App #subtitle {
   font-family: "Caveat", cursive;
+  color: #2c095d;
 }
 
-.App header,
+.App .brush-stroke {
+  background: url(./brush-stroke-2.png);
+  background-repeat: no-repeat;
+  background-position: 55%;
+  background-size: 70% 110%;
+  color: #fff;
+}
+
+/* Alternate brush stroke
+.App .brush-stroke {
+  background: url(./brush-stroke.png);
+  background-repeat: no-repeat;
+  background-position: 65% 10%;
+  background-size: 70% 120%;
+  padding: 8px 0;
+  color: #fff;
+} */
+
+.App header {
+  text-align: center;
+  min-height: 130px;
+}
+
 .App footer {
   text-align: center;
+  margin-bottom: 30px;
+  color: #2c095d;
+}
+
+.App footer a {
+  color: #c5a2f6;
 }

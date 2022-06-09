@@ -6,14 +6,14 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="mt-5">
-          <h1>Plain & simple</h1>
+        <header className="mt-5 mb-3 brush-stroke d-flex flex-column justify-content-center">
+          <h1 id="title">Plain & simple</h1>
           <h2 id="subtitle">A humble dictionary</h2>
         </header>
         <main>
           <Dictionary />
         </main>
-        <footer>
+        <footer className="mt-3">
           <small>
             <a href="https://github.com/Kamareon59/dictionary">
               Open-source code

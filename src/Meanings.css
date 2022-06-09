@@ -2,3 +2,16 @@
   font-family: "Caveat", cursive;
   text-transform: capitalize;
 }
+
+.Meanings .accent-purple {
+  text-decoration: underline;
+  text-decoration-color: #b990f4;
+  text-decoration-thickness: 2px;
+  margin-right: 5px;
+}
+
+.Meanings .accent-green {
+  color: #39502a;
+  margin-right: 5px;
+  font-weight: 600;
+}

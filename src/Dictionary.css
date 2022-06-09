@@ -2,22 +2,41 @@
   padding: 10px;
 }
 
+.Dictionary section {
+  background-color: #fff;
+  padding: 10px 14px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+}
+
 .Dictionary form {
   text-align: center;
 }
 
 .Dictionary .search-bar {
   text-indent: 10px;
-  padding: 5px;
-  width: 50%;
+  padding: 7px;
   border-color: #b990f4;
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 75%;
 }
 
 .Dictionary .search-btn {
-  padding: 5px 10px;
+  padding: 7px 10px;
   margin: 5px;
   background-color: #c5a2f6;
   border-color: #b990f4;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.Dictionary .suggestion {
+  font-size: 13px;
+  text-align: center;
+  color: #2c095d;
+}
+
+.Dictionary .suggestion span {
+  font-weight: 600;
+  margin-right: 5px;
 }
