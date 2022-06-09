@@ -11,7 +11,7 @@ function App() {
           <h2 id="subtitle">A humble dictionary</h2>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="capricious" />
         </main>
         <footer className="mt-3">
           <small>
