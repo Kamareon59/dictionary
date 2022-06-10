@@ -31,6 +31,12 @@ export default function Results(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <section>
+        Sorry, I cannot find the word you searched for. Did you spell it
+        correctly? Otherwise is might just be too flabbergasting for me to
+        find...
+      </section>
+    );
   }
 }
