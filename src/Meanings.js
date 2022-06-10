@@ -10,12 +10,10 @@ export default function Meanings(props) {
       <ol>
         {props.meanings.definitions.map(function (definition, index) {
           return (
-            <li key={index} className="mb-4">
+            <li key={index} className="minor-section">
               <span className="accent-purple">Definition:</span>{" "}
               {definition.definition}
-              <br />
               <Example example={definition.example} />
-              <br />
               <Synonyms synonyms={definition.synonyms} />
             </li>
           );

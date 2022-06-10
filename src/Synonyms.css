@@ -5,7 +5,7 @@
 .Synonyms li {
   display: inline-block;
   padding: 5px 12px;
-  margin: 7px;
+  margin: 12px 7px 0 10px;
   background-color: #39502a;
   border-radius: 500px;
   color: #fff;

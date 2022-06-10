@@ -1,5 +1,7 @@
 .Meanings h3 {
   font-family: "Caveat", cursive;
+  font-size: 36px;
+  margin: 5px 0 10px 7px;
   text-transform: capitalize;
 }
 
@@ -14,4 +16,8 @@
   color: #39502a;
   margin-right: 5px;
   font-weight: 600;
+}
+
+.Meanings .minor-section {
+  margin-bottom: 20px;
 }

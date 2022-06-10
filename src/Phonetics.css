@@ -1,0 +1,18 @@
+.Phonetics a {
+  text-decoration: none;
+}
+
+.Phonetics .ph-audio {
+  padding: 7px 9px;
+  border: 1px solid #39502a;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px #999;
+  margin: 7px 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.Phonetics .ph-text {
+  padding: 5px;
+  font-size: 18px;
+}

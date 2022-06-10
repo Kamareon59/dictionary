@@ -11,19 +11,17 @@ function App() {
           <h2 id="subtitle">A humble dictionary</h2>
         </header>
         <main>
-          <Dictionary defaultKeyword="capricious" />
+          <Dictionary defaultKeyword="idyllic" />
         </main>
-        <footer className="mt-3">
-          <small>
-            <a href="https://github.com/Kamareon59/dictionary">
-              Open-source code
-            </a>{" "}
-            by{" "}
-            <a href="https://marit-versteeg-portfolio.netlify.app/">
-              Marit Versteeg
-            </a>
-            , hosted on <a href="https://www.netlify.com/">Netlify</a>
-          </small>
+        <footer>
+          <a href="https://github.com/Kamareon59/dictionary">
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a href="https://marit-versteeg-portfolio.netlify.app/">
+            Marit Versteeg
+          </a>
+          , hosted on <a href="https://www.netlify.com/">Netlify</a>
         </footer>
       </div>
     </div>
